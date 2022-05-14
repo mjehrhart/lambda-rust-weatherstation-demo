@@ -1,3 +1,6 @@
+# About this Project
+This rust lambda connects to dynamodb to return a JSON result set utilizing the API Gateway. All files needed to build/compile/deploy for AWS are located in this repo. There are a couple Readme files to help out.  I hope the files are helpful.
+
 # AWS Lambda & Rust Deployment Method
 
 <p float="left">
