@@ -1,0 +1,3 @@
+Included in this folder are a cloudformation script to create a 'weatherstation_data' dynamodb table.  Also is a python script to populate the table with 1_000 records.  These two scripts are from the acloudguru.com training vidoes. If you are fully setup on your local machine with AWS CLI and python with boto3 and tqdm (if not install both with pip3 using python 3.9), and xcode, then I think you should be able to run the two scripts. 
+
+Also, included is the a comparable python lambda script (non optimized version).  I created this python lambda by hand in the AWS console.  It is a very basic script to mimic the rust lambda code.  I used this to roughly compare rust lambda verse python lambda.  
