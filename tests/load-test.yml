@@ -4,7 +4,7 @@ config:
   target: "{{ $processEnvironment.API_URL }}"
   processor: "generator.js"
   phases:
-    - duration: 10
+    - duration: 60
       arrivalRate: 30
 scenarios: 
   - flow:
